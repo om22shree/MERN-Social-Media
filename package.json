@@ -1,0 +1,22 @@
+{
+  "name": "social",
+  "version": "1.0.0",
+  "description": "A full stack social media appliccation created using mongoDB, express, ReactJS and Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/om22shree/MERN-Social-Media.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/om22shree/MERN-Social-Media/issues"
+  },
+  "homepage": "https://github.com/om22shree/MERN-Social-Media#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
