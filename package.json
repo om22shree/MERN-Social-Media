@@ -4,6 +4,7 @@
   "description": "A full stack social media appliccation created using mongoDB, express, ReactJS and Node.",
   "main": "index.js",
   "scripts": {
+    "watch": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/om22shree/MERN-Social-Media#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "nodejs": "^0.0.0"
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.19"
   }
 }
