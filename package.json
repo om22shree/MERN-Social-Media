@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/om22shree/MERN-Social-Media#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodejs": "^0.0.0"
   }
 }
