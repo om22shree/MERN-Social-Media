@@ -1,14 +1,12 @@
-const dotenv = require("dotenv");
-dotenv.config();
-const { MongoClient } = require("mongodb");
+const {MongoClient} = require('mongodb')
 
-const client = new MongoClient(process.env.CONNECTIONSTRING);
+const client = new MongoClient('mongodb+srv://username:password@cluster0.dfvvi.mongodb.net/TodoApp?retryWrites=true&w=majority')
 
 async function start() {
-  await client.connect();
-  module.exports = client;
-  const app = require("./app");
-  app.listen(process.env.PORT);
+  await client.connect()
+  module.exports = client.db()
+  const app = require('./app')
+  app.listen(3000)
 }
 
-start();
+start()
