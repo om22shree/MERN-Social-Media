@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 const client = new MongoClient(
-  "mongodb+srv://om:2002@cluster0.dfvvi.mongodb.net/ComplexApp?retryWrites=true&w=majority"
+  "mongodb+srv://om:2002@cluster0.xueoblr.mongodb.net/ComplexApp?retryWrites=true&w=majority"
 );
 
 async function start() {
