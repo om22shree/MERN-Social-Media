@@ -1,8 +1,7 @@
 const { MongoClient } = require("mongodb");
+const dotenv = require("dotenv");
 
-const client = new MongoClient(
-  "mongodb+srv://om:2002@cluster0.xueoblr.mongodb.net/ComplexApp?retryWrites=true&w=majority"
-);
+const client = new MongoClient(process.env.CONNECTIONSTRING);
 
 async function start() {
   await client.connect();
